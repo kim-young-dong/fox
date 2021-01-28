@@ -55,23 +55,23 @@ div.itr div {
   border: 5px solid #333;
 }
 div#round {
-  border: none;
   background: none;
+  border: none;
 }
-div#round ul {
-  width: 100%;
-  display: table;
-}
-div#round li {
-  background-color: aqua;
-  width: 80px;
+div#round div {
+  width: 100px;
   height: 100px;
-  padding-left: 10%;
-  border-radius: 10px;
-  background-color: #fff;
-  border: 5px solid #333;
-  display: table-cell;
+  display: inline-block;
 }
+div#round div:nth-child(2n){
+  margin: 0 48px;
+}
+div#round div:last-child {
+  margin: 0;
+  margin-left: 48px;
+}
+
+
 
 /* mid */
 div#mid {
