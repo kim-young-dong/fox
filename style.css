@@ -114,11 +114,22 @@ div#yellow div.chance {
   position: absolute;
   right: 0;
 }
+div#yellow div.chance p {
+  width: 68px;
+  height: 68px;
+  margin-top: 20px;
+  line-height: 68px;
+  text-align: center;
+}
+div#yellow div.chance p:last-child {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
 div#yellow div.score {
   position: absolute;
   left: 0;
   bottom: 20px;
-
 }
 div#yellow div.score button {
   width: 68px;
