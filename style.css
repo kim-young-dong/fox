@@ -10,13 +10,18 @@
 li {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   color: #333;
 }
-
+/* 전체적용 */
 div {
+  border-radius: 10px;
+}
+div.check button{
+  width: 68px;
+  height: 68px;
+  border: 1px solid #999;
   border-radius: 10px;
 }
 div#contentsWrap {
@@ -84,11 +89,44 @@ div#mid > div {
   height: 480px;
   display: inline-block;
 }
+/* //yellow */
 div#yellow {
   background-color: #FDFFCC;
   border: 5px solid #DBEF4B;
   margin-left: 10px;
 }
+div#yellowContents {
+  width: 440px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+div#yellowContents > div {
+  display: inline-block;
+}
+div#yellow button:nth-child(n+2) {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+div#yellow div.chance {
+  width: 68px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+div#yellow div.score {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+
+}
+div#yellow div.score button {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+/* //blue */
 div#blue {
   background-color: #97B5FF;
   border: 5px solid #2652BF;
